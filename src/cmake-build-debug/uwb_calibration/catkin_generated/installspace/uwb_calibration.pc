@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: uwb_calibration
+Description: Description of uwb_calibration
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

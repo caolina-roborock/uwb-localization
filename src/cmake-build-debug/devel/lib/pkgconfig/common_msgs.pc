@@ -1,0 +1,8 @@
+prefix=/home/lina/RoboRock/project/Scruber/uwb-localization/src/cmake-build-debug/devel
+
+Name: common_msgs
+Description: Description of common_msgs
+Version: 0.0.0
+Cflags: -I/home/lina/RoboRock/project/Scruber/uwb-localization/src/cmake-build-debug/devel/include
+Libs: -L${prefix}/lib 
+Requires: angles geometry_msgs roscpp rospy sensor_msgs std_msgs tf message_runtime

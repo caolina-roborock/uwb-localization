@@ -1,0 +1,2 @@
+set(common_msgs_MESSAGE_FILES "msg/NavigationState.msg;msg/GPSVelocity.msg;msg/MeasurementPosition.msg;msg/MeasurementVelocity.msg;msg/PixhawkCMD.msg;msg/PixhawkServo.msg;msg/MeasurementPosVel.msg;msg/MaxDynamics.msg;msg/Reference.msg;msg/Mission.msg;msg/MissionStatus.msg;msg/PathPlanningStatus.msg;msg/Waypoint.msg;msg/UWB_DataInfo.msg;msg/UWB_EchoedRangeInfo.msg;msg/UWB_FullNeighborDatabase.msg;msg/UWB_FullNeighborDatabaseEntry.msg;msg/UWB_FullRangeInfo.msg;msg/UWB_SendData.msg")
+set(common_msgs_SERVICE_FILES "")

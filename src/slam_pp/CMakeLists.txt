@@ -39,8 +39,8 @@ find_package(PCL 1.7 REQUIRED)
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-find_library(Reflexxes_LIBRARIES flexxes ${PROJECT_SOURCE_DIR}/exLib/Reflexxes)
-set(Relfexxes_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/exLib/Reflexxes/Reflexxes)
+#find_library(Reflexxes_LIBRARIES flexxes ${PROJECT_SOURCE_DIR}/exLib/Reflexxes)
+#set(Relfexxes_INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/exLib/Reflexxes/Reflexxes)
 
 find_package(Boost REQUIRED COMPONENTS system thread iostreams chrono)
 
@@ -94,7 +94,7 @@ set(Library_Set
     ${PCL_LIBRARIES}
     ${catkin_LIBRARIES}
     ${Boost_LIBRARIES}
-    ${Reflexxes_LIBRARIES}
+#    ${Reflexxes_LIBRARIES}
     ${CERES_LIBRARIES}
 )
 

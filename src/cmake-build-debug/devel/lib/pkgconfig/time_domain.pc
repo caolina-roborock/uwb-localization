@@ -1,0 +1,8 @@
+prefix=/home/lina/RoboRock/project/Scruber/uwb-localization/src/cmake-build-debug/devel
+
+Name: time_domain
+Description: Description of time_domain
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
